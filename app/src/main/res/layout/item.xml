@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher"/>
+    <View
+        android:id="@+id/back_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00fdff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我是退拽View"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        />
+</RelativeLayout>
